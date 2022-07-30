@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for serach  */
+.input {
+    border: none !important;
+    position: relative;
+}
+
+.input:focus {
+    border: none !important;
+    outline: none !important;
+
+}
+
+/* for pointer  */
+a {
+    cursor: pointer;
+}
+
+.icon-header-search {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* for icons  */
+form {
+    position: relative;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+
+/* for image  */
+.logo {
+    height: 28px;
+    width: 31px;
+    border-radius: 100%;
+    margin-left: 14px;
+    cursor: pointer;
+
+}
+
+#image-beside {
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.mail {
+    position: relative;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 18px;
+
+
+}
+
+.mail::after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 13px;
+    height: 5px;
+    background-color: red;
+    width: 4px;
+    border-radius: 100%;
+}
+
+.toggle-button:focus {
+    box-shadow: none !important;
+}
